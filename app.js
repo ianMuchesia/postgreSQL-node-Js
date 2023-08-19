@@ -9,7 +9,7 @@ const app = express();
 app.use(cors())
 app.use(express.json());
 
-
+console.log(process.env.POSTGRES_NAME)
 
 //ROUTES
 //create a todo
